@@ -1,0 +1,58 @@
+.top-space {
+    height: 100px;
+    background-color: #1D1615;
+}
+
+.center-space {
+    height: 450px;
+    background: linear-gradient(135deg, rgb(90,191,235) 5%, rgb(71,141,96) 90%);
+}
+
+.focus-space {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.right-focus {
+    display: flex;
+    flex-direction: column;
+}
+
+.guru {
+    height: 600px;
+    width: 279.37px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 85px;
+    filter: drop-shadow(50px 5px 30px #222);
+    border: 1px solid red;
+}
+
+.slogan {
+    margin: 80px auto 20px;
+    font-family: "Verdana Pro Black", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: white;
+    text-shadow: 5px 5px 5px #222;
+    border: 1px solid red;
+}
+
+.logo {
+    border: 1px solid red;
+    margin: 20px 0;
+    align-content: center;
+}
+
+
+.guru-logo {
+    width: 80%;
+    min-width: 150px;
+    margin: auto;
+    filter: drop-shadow(5px 5px 5px #222);
+    border: 1px solid red;
+}
+
