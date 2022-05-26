@@ -17,21 +17,19 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid blue;
 }
 
 .guru {
     margin: 0 auto;
     position: relative;
     filter: drop-shadow(50px 5px 30px #222);
-    border: 1px solid red;
 }
 
 .right-focus {
     display: flex;
     flex-direction: column;
-    border: 1px solid purple;
     margin: 50px auto;
+    justify-content: center;
 }
 
 .slogan {
@@ -41,17 +39,17 @@ body {
     font-size: clamp(1.4em, 4vw, 2.6em);
     color: white;
     text-shadow: 5px 5px 5px #222;
-    border: 1px solid red;
 }
 
 .logo {
-    border: 1px solid red;
     margin: 0 auto;
 }
 
 
 .guru-logo {
-    filter: drop-shadow(5px 5px 5px #222);
-    border: 1px solid red;
+    width: 50vw;
+    min-width: 330px;
+    max-width: 600px;
+    filter: drop-shadow(7px 7px 2px #222);
 }
 
