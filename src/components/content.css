@@ -1,0 +1,29 @@
+.content-box {
+    max-width: 1000px;
+    color: white;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+p {
+    padding: 15px 0;
+    font-size: 1.2em;
+}
+
+.strong {
+    padding: 10px 0;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.pesquisa {
+    margin: 20px 0;
+    padding: 25px 20px;
+    border-radius: 10px;
+    font-family: 'Arial Black', 'Arial Bold', Arial, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-color: red
+}

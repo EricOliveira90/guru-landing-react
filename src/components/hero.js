@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
 import guru from '../images/guru.png'
-import logo from '../images/logo.svg'
+import logo from '../images/logo.png'
 
 function Hero() {
   return (
@@ -22,10 +22,8 @@ function Hero() {
             <img src={logo} alt="logo" className='guru-logo'></img>
           </div>
         </div>
-          
+        
       </div>
-      teste
-      
     </header>
   )
 }
