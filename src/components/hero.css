@@ -1,41 +1,44 @@
-.top-space {
-    height: 100px;
+body {
     background-color: #1D1615;
 }
 
+.top-space {
+    height: 60px;
+}
+
 .center-space {
-    height: 450px;
+    height: 550px;
     background: linear-gradient(135deg, rgb(90,191,235) 5%, rgb(71,141,96) 90%);
 }
 
 .focus-space {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: -600px auto 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border: 1px solid blue;
+}
+
+.guru {
+    margin: 0 auto;
+    position: relative;
+    filter: drop-shadow(50px 5px 30px #222);
+    border: 1px solid red;
 }
 
 .right-focus {
     display: flex;
     flex-direction: column;
-}
-
-.guru {
-    height: 600px;
-    width: 279.37px;
-    position: relative;
-    margin: 0 auto;
-    bottom: 85px;
-    filter: drop-shadow(50px 5px 30px #222);
-    border: 1px solid red;
+    border: 1px solid purple;
+    margin: 50px auto;
 }
 
 .slogan {
-    margin: 80px auto 20px;
+    margin: 0 auto 30px;
     font-family: "Verdana Pro Black", Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    font-size: 1.4em;
+    font-size: clamp(1.4em, 4vw, 2.6em);
     color: white;
     text-shadow: 5px 5px 5px #222;
     border: 1px solid red;
@@ -43,15 +46,11 @@
 
 .logo {
     border: 1px solid red;
-    margin: 20px 0;
-    align-content: center;
+    margin: 0 auto;
 }
 
 
 .guru-logo {
-    width: 80%;
-    min-width: 150px;
-    margin: auto;
     filter: drop-shadow(5px 5px 5px #222);
     border: 1px solid red;
 }
